@@ -26,7 +26,7 @@ export default function InsyderOverlay(props) {
     function inputChange(userInput) {
         changeInput(userInput.target.value)
 
-        if (userInput.target.value === "password") {
+        if (userInput.target.value === "matty84lyfe") {
             toggleInsyderOverlay()
             changeInput("")
   

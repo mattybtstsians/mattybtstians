@@ -25,9 +25,5 @@ yarn-error.log*
 
 .firebase-config.js
 
-/insyderMemes
-insyderMemes/
-public/insyderMemes
-/public/insyderMemes/*
 
 /src/firebase-config.js
