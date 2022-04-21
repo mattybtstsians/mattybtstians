@@ -32,3 +32,12 @@
 .menu-image {
     padding: none;
 }
+
+@media screen and (max-width: 600px){
+    
+    @supports (-webkit-touch-callout: none) {
+        .menu-button{
+            margin-top: 60px !important;
+        }
+  }
+}
