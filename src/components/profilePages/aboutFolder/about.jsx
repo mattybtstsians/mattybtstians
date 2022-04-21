@@ -2,7 +2,7 @@ import React from 'react';
 import useDocumentTitle from '../../../useDocumentTitle'
 import ClassPic from './classPic.png'
 import CircleImage from '../../circleImage'
-import Footer from '../../footer/footer';
+import Footer from '../../Footer/Footer';
 import githubLogo from './githubLogo.png'
 import reportIcon from './reportIcon.png'
 import './about.scss'

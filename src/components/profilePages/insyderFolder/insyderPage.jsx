@@ -1,8 +1,8 @@
 import React from 'react';
 import useDocumentTitle from '../../../useDocumentTitle'
 import ProfileTitle from '../../headings/ProfileTitle.jsx';
-import Footer from '../../footer/footer.jsx';
-import '../../footer/footer.scss';
+import Footer from '../../Footer/Footer.jsx';
+import '../../Footer/Footer.scss';
 import './insyderPage.scss';
 import '../../headings/headings.scss';
 import ImageList from '@mui/material/ImageList';

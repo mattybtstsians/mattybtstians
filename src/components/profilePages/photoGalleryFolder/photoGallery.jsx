@@ -6,7 +6,7 @@ import SliderSept from '../../carousel/carouselSlideSept';
 import SliderOct from '../../carousel/carouselSlideOct';
 import SliderNov from '../../carousel/carouselSlideNov';
 import SliderDec from '../../carousel/carouselSlideDec';
-import Footer from '../../footer/footer.jsx';
+import Footer from '../../Footer/Footer.jsx';
 import { Link } from 'react-scroll';
 import circleOne from '../../../images/circle1.svg';
 import circleTwo from '../../../images/circle4.svg';

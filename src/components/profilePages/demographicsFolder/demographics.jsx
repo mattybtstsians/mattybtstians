@@ -1,6 +1,6 @@
 import React from 'react';
 import useDocumentTitle from '../../../useDocumentTitle'
-import Footer from '../../footer/footer';
+import Footer from '../../Footer/Footer';
 import NavArrows from '../../navArrows/navArrows';
 import ProfileTitle from '../../headings/ProfileTitle'
 import Section from '../../headings/section';

@@ -1,5 +1,5 @@
 import Button from '@mui/material/Button';
-import './footer.scss'
+import './Footer.scss'
 import logo from '../../images/heart.svg';
 import arrow from '../../images/arrowUp.svg';
 import { useState, useEffect } from 'react';
