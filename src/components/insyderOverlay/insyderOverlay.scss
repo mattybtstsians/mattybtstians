@@ -105,10 +105,10 @@
         margin-top: 0;
         height: 5vh;
         width: 80%;
-        border-width: thin;
+        border-width: 0.1em;
     }
     .password-field:focus{
-        border-width: thin;
+        border-width: 0.1em;
     }
     .lock-icon {
         width: 20%;
