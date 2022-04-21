@@ -107,6 +107,9 @@
         width: 80%;
         border-width: thin;
     }
+    .password-field:focus{
+        border-width: thin;
+    }
     .lock-icon {
         width: 20%;
     }
