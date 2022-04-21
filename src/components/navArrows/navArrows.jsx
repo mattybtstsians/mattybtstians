@@ -8,23 +8,38 @@ const NavArrows = ({ navBack, navForward }) => {
   switch (navBack) {
     case "academics":
       navBackID = "Academics"
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0, 
+        left: 0,
+      });
       break
     case "coop":
       navBackID = "Co-op"
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0, 
+        left: 0,
+      });
       break
     case "lifestyles":
       navBackID = "Lifestyle"
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0, 
+        left: 0,
+      });
       break
     case "demographics":
       navBackID = "Demographics"
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0, 
+        left: 0,
+      });
       break
     case "highschool":
       navBackID = "High School"
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0, 
+        left: 0,
+      });
       break
     default:
       navBackID = navBack
@@ -32,23 +47,38 @@ const NavArrows = ({ navBack, navForward }) => {
   switch (navForward) {
     case "academics":
       navForwardID = "Academics"
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0, 
+        left: 0,
+      });
       break
     case "coop":
       navForwardID = "Co-op"
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0, 
+        left: 0,
+      });
       break
     case "lifestyles":
       navForwardID = "Lifestyle"
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0, 
+        left: 0,
+      });
       break
     case "demographics":
       navForwardID = "Demographics"
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0, 
+        left: 0,
+      });
       break
     case "highschool":
       navForwardID = "High School"
-      window.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0, 
+        left: 0,
+      });
       break
     default:
       navForwardID = navForward
