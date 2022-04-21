@@ -329,10 +329,17 @@ a{
         margin-left: 1rem;
         justify-content: space-between;
     }
-    .close-button{
-        margin-left: -200%;
-    }
+    // .close-button{
+    //     margin-left: -200%;
+    // }
     // .section-text{
     //     color: black;
     // }
 }
+
+@supports (-webkit-touch-callout: none) {
+    .close-icon {
+        margin-left: -50% !important;
+    }
+  }
+  
