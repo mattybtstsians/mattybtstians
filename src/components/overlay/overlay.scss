@@ -340,6 +340,7 @@ a{
 @supports (-webkit-touch-callout: none) {
     .close-icon {
         margin-left: -70% !important;
+        transform: scale(0.8,0.8);
     }
   }
   
