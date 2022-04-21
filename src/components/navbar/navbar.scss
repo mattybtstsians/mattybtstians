@@ -36,8 +36,11 @@
 @media screen and (max-width: 600px){
     
     @supports (-webkit-touch-callout: none) {
-        .menu-button{
-            margin-top: 37px !important;
+        // .menu-button{
+        //     margin-top: 37px !important;
+        // }
+        .menu-image{
+            margin-top: 20%;
         }
     }
 }
