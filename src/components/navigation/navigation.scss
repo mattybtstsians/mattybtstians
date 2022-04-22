@@ -312,6 +312,12 @@ h3 {
     }    
 }
 
+@media screen and (max-width: 600px){
+    .DescriptionTextWrapper > p, .DescriptionTextWrapper > h3{
+        font-size: 50%;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .InstructionWrapper {
         margin-bottom: 0;
