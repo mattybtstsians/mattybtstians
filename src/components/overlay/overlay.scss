@@ -50,9 +50,16 @@
 }
 
 .close-icon {
-    padding: none;
-    margin: none;
-    -webkit-transform: scale(0.8,0.8);
+    padding: auto;
+    margin: auto;
+}
+
+@media not all and (min-resolution:.001dpcm) { 
+    @supports (-webkit-appearance:none) {
+        .close-icon { 
+            transform: scale(0.8,0.8); 
+        }
+    }
 }
 
 .profile-button {
