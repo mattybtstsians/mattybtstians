@@ -47,9 +47,7 @@
     }
 }
 
-@media screen and (max-width: 1600px) {
-    .webkit .menu-button {
-        margin-top: -400% !important;
-        transform: scale(0.8,0.8);
-    }
+.webkit .menu-image {
+    margin-top: -400% !important;
+    transform: scale(0.8,0.8);
 }
