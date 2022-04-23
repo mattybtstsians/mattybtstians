@@ -186,7 +186,7 @@ const itemData = [
   },
   {
     img: '../insyderMemes/14664094-8E61-4A10-BC1D-42BB5FC14756 - Shushawn Saha.jpeg',
-    title: 'when you message the wrong group chart …',
+    title: 'when you message the wrong group chat …',
   },
   {
     img: '../insyderMemes/A3AABD92-45D9-4471-94FB-7A242BCE05D1 - Shushawn Saha.jpeg',
