@@ -31,9 +31,6 @@ export const FlexTiles = () => {
         If you worked on the 60th floor of an office building, walked up to your desk and there was a bomb, what would you do?
       </div>
       <div className="flexTiles">
-        Would you move to Germany?
-      </div>
-      <div className="flexTiles">
         Was asked to explain business processes at my last job (an area I didn’t work in)
       </div>
       <div className="flexTiles">
