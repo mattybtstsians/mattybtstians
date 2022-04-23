@@ -52,6 +52,7 @@
 .close-icon {
     padding: none;
     margin: none;
+    -webkit-padding-start: 100px;
 }
 
 .profile-button {
@@ -117,7 +118,7 @@
     .section-text {
         color: white;
         font-weight: 100;
-        font-size: 1.6vmax;
+        font-size: 1.75vmax;
         text-align: center;
         margin-top: 0;
         margin-bottom: 3.5vh;
@@ -139,7 +140,7 @@
     .section-text {
         color: white;
         font-weight: 100;
-        font-size: 1.6vmax;
+        font-size: 1.75vmax;
         text-align: center;
         margin-top: 0;
         margin-bottom: 3.5vh;
@@ -161,7 +162,7 @@
     .section-text {
         color: white;
         font-weight: 100;
-        font-size: 1.6vmax;
+        font-size: 1.75vmax;
         text-align: center;
         margin-top: 0;
         margin-bottom: 3.5vh;
@@ -184,7 +185,7 @@
     .section-text {
         color: white;
         font-weight: 100;
-        font-size: 1.6vmax;
+        font-size: 1.75vmax;
         text-align: center;
         margin-top: 0;
         margin-bottom: 3.5vh;
@@ -205,7 +206,7 @@
     .section-text {
         color: white;
         font-weight: 100;
-        font-size: 1.6vmax;
+        font-size: 1.75vmax;
         text-align: center;
         margin-top: 0;
         margin-bottom: 3.5vh;
@@ -350,9 +351,4 @@ a{
             background-color: #27313B;
         }
     }
-}
-
-.webkit .close-icon {
-    margin-left: -70% !important;
-    transform: scale(0.8,0.8);
 }
