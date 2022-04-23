@@ -31,7 +31,6 @@
 
 .menu-image {
     padding: none;
-    -webkit-padding-start: 100px;
 }
 
 @media screen and (max-width: 600px){
@@ -46,9 +45,4 @@
             transform: scale(0.8,0.8);
         }
     }
-}
-
-.webkit .menu-image {
-    margin-top: -400% !important;
-    transform: scale(0.8,0.8);
 }
