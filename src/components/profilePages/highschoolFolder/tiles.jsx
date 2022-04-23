@@ -34,7 +34,6 @@ export const Tiles1 = () => {
         Try your best but don't base your worth on university acceptances or grades. If you work hard you'll be successful, whether that's in SYDE or not. Having said this, if SYDE's your goal, make sure you pursue things that interest you in high school, even if they don't necessarily relate to engineering. They want to see your personality and your enthusiasm, not just your grades. You've got this
       </div>
       <div className="tiles">
-        It’s just a program, it won’t make that much of a difference but it’s not a bad one:)
         Things like "SYDE is tight, fun, chill, wide range of topics" are what most people hear. And though true, also be prepared to struggle a little. Unlike highschool, things (such as calc) aren't as easy to understand or do AMAZING in. So it might destroy your self esteem but also remember it is 1A and its a huge change, especially with all the covid school years.
         So for sure, COME TO SYDE its FUN and also keep in mind you will need to work. :)
       </div>
