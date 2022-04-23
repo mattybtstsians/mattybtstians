@@ -369,6 +369,83 @@ h3 {
     }
 }
 
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) { 
+    .notVisible {
+        display: none;
+    }
+
+    .InstructionWrapper {
+        margin-bottom: 6vh;
+    }
+
+    .Wrapper {
+        display: none;
+    }
+
+    .PhoneWrapper {
+        display: flex;
+        justify-content: center;
+        opacity: 1;
+    }
+
+    .btn-slide {
+        margin-top: 15vh;
+    }
+
+    .BlackCircle {
+        margin-top: 1.6vh;
+    }
+
+    .BottomCircle {
+        margin-top: 4vh;
+        height: 70vh;
+    }
+
+    .phoneButtonSlider {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-dots2 {
+        display: flex;
+        align-self: center;
+        padding-top: 9.5vh;
+    }
+
+    .BottomCircle {
+        margin-top: 55vh;
+        height: 60vh;
+    }
+
+    .DescriptionWrapper {
+        margin-top: -50vh;
+    }
+
+    .DescriptionTextWrapper {
+        width: 70vw;
+        margin-top: 6vh;
+        font-size: 14px;
+    }
+
+    .DescriptionPText {
+        font-size: 0.8rem;
+    }
+
+    .SmallParagraph1 {
+        margin-top: 2vh;
+        margin-left: -15vw;
+        font-size: 0.8rem;
+        width: 100vw;
+    }
+
+    .SmallParagraph2 {
+        margin-top: -1vh;
+        margin-left: -15vw;
+        font-size: 0.8rem;
+        width: 100vw;
+    }
+}
+
 @media screen and (min-width: 376px) and (max-width: 540px) {
 
     .notVisible {
