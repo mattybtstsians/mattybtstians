@@ -134,8 +134,8 @@ const GradientBackground = () => {
                 <div className='BottomCircle'>
                     <div className='DescriptionTextWrapper'>
                         <h3 className="Title">Welcome to the SYDE 2026 class profile!</h3>
-                        <p>Feel free to click around and learn about the SYDE Class of 2026! <br></br> <br></br>
-                        Check out our <Link className='DescriptionPText' to='/photoGallery'>photo gallery</Link> for proof that engineering kids don’t just study :)</p>
+                        <p className="SmallParagraph">Feel free to click around and learn about the SYDE Class of 2026!</p>
+                        <p className="SmallParagraph">Check out our <Link className='DescriptionPText' to='/photoGallery'>photo gallery</Link> for proof that engineering kids don’t just study :)</p>
                     </div>
                 </div>
             </div>

@@ -424,12 +424,18 @@ h3 {
 
     .DescriptionTextWrapper {
         width: 70vw;
-        margin-top: 7vh;
+        margin-top: 6vh;
         font-size: 14px;
     }
 
     .DescriptionPText {
-        font-size: 14px;
+        font-size: 1rem;
+    }
+
+    .SmallParagraph {
+        margin-left: -15vw;
+        font-size: 1rem;
+        width: 100vw;
     }
 }
 
