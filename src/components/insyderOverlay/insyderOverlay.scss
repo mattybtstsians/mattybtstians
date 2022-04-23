@@ -110,6 +110,19 @@
     .password-field:focus{
         border-width: 0.01em;
     }
+
+    @supports (-webkit-touch-callout: none) {
+        .password-field {
+            margin-top: 0;
+            height: 5vh;
+            width: 80%;
+            border-style: normal;
+            border-color:#749BFF;
+            border-radius: 10px;
+            border-width: 0.01em;
+        }
+    }
+
     .lock-icon {
         width: 20%;
     }
