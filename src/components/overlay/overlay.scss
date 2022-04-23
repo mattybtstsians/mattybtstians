@@ -342,7 +342,16 @@ a{
         margin-left: -70% !important;
         transform: scale(0.8,0.8);
     }
-  }
+}
+
+@media screen and (min-width: 1450px){
+    @supports (-webkit-touch-callout: none) {
+        .close-icon {
+            margin-left: -70% !important;
+            transform: scale(0.8,0.8);
+        }
+    }
+}
   
 @media screen and (max-width: 600px){
     @supports not (-webkit-touch-callout: none) {
