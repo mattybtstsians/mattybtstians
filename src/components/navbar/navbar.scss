@@ -47,3 +47,13 @@
     }
 }
 
+@media screen and (max-width: 1600px) {
+    .webkit .close-icon {
+        margin-left: -70% !important;
+        transform: scale(0.8,0.8);
+    }
+
+    .webkit .menu-image {
+        transform: scale(0.8,0.8);
+    }
+}

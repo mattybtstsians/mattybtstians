@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Button from '@mui/material/Button';
 import './navArrows.scss'
 import { Link } from 'react-router-dom'
@@ -5,41 +6,24 @@ import { Link } from 'react-router-dom'
 const NavArrows = ({ navBack, navForward }) => {
   let navBackID
   let navForwardID
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   switch (navBack) {
     case "academics":
       navBackID = "Academics"
-      window.scrollTo({
-        top: 0, 
-        left: 0,
-      });
       break
     case "coop":
       navBackID = "Co-op"
-      window.scrollTo({
-        top: 0, 
-        left: 0,
-      });
       break
     case "lifestyles":
       navBackID = "Lifestyle"
-      window.scrollTo({
-        top: 0, 
-        left: 0,
-      });
       break
     case "demographics":
       navBackID = "Demographics"
-      window.scrollTo({
-        top: 0, 
-        left: 0,
-      });
       break
     case "highschool":
       navBackID = "High School"
-      window.scrollTo({
-        top: 0, 
-        left: 0,
-      });
       break
     default:
       navBackID = navBack
@@ -47,38 +31,18 @@ const NavArrows = ({ navBack, navForward }) => {
   switch (navForward) {
     case "academics":
       navForwardID = "Academics"
-      window.scrollTo({
-        top: 0, 
-        left: 0,
-      });
       break
     case "coop":
       navForwardID = "Co-op"
-      window.scrollTo({
-        top: 0, 
-        left: 0,
-      });
       break
     case "lifestyles":
       navForwardID = "Lifestyle"
-      window.scrollTo({
-        top: 0, 
-        left: 0,
-      });
       break
     case "demographics":
       navForwardID = "Demographics"
-      window.scrollTo({
-        top: 0, 
-        left: 0,
-      });
       break
     case "highschool":
       navForwardID = "High School"
-      window.scrollTo({
-        top: 0, 
-        left: 0,
-      });
       break
     default:
       navForwardID = navForward
