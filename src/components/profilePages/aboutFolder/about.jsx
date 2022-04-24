@@ -13,6 +13,9 @@ import { softwareTeam } from './avatarInfo.jsx'
 function About() {
 
     useDocumentTitle('SYDE \'26 | About');
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     
     const designAvatars = designTeam.map(item => {
         return <CircleImage name={item.name} linkedin={item.linkedin} imagePath={`../credit/design/img${item.id}.png`} />

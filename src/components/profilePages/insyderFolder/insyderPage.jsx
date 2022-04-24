@@ -18,12 +18,14 @@ import circle2 from '../../../images/circle4.svg';
 import circle3 from '../../../images/circle3.svg';
 import circle4 from '../../../images/circle2.svg';
 import InsyderOverlay from "../../insyderOverlay/index.jsx";
-
+import Scroll from '../../scroll';
 
 function Insyderpage(props) {
 
   useDocumentTitle('SYDE \'26 | Insyder');
-
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [url, setUrl] = React.useState();
 
 

@@ -16,7 +16,9 @@ import circleFour from '../../../images/circle2.svg';
 function PhotoGallery() {
 
     useDocumentTitle('SYDE \'26 | Photo Gallery');
-
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div className='sticky'>
             <ProfileTitle title="1A Photo Gallery" section="gallery" />
