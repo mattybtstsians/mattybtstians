@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 import '../overlay/overlay.scss';
 import closeIcon from '../../images/close-icon.svg';
 import lockIcon from '../../images/lock-icon.svg';
+import Scroll from '../scroll';
 
 export default function Overlay(props) {
+    const [allowScroll, blockScroll] = Scroll();
     function toggleOverlay() {
+        blockScroll()
         props.setShowOverlay(prev => !prev)
     }
 

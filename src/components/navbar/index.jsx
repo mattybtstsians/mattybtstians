@@ -4,10 +4,12 @@ import '../navbar/navbar.scss';
 import Overlay from '../overlay';
 import logo from '../../images/menu-logo.svg';
 import menuItem from '../../images/menu-icon.svg';
+import Scroll from '../scroll';
 
 export default function Navbar(props) {
-
+    const [allowScroll, blockScroll] = Scroll();
     function toggleOverlay() {
+        allowScroll()
         props.setShowOverlay(prev => !prev)
     }
 
