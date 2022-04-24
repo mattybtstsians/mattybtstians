@@ -13,7 +13,7 @@ function Lifestyles() {
     useDocumentTitle('SYDE \'26 | Lifestyle');
 
     return (
-        <div>
+        <div className='sticky'>
             <ProfileTitle section="lifestyle" title="Lifestyle" />
             <Section header="Mental Health and Time Outdoors" description="1A hit us like a truck, but going outside to touch some grass positively impacted our mental health." />
             {/* The data here might say PercentageOfHighschoolFriends but it's really stress level of 1A            */}

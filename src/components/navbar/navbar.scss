@@ -1,3 +1,5 @@
+@import '../headings/headings.scss';
+
 .navbar {
     background-color: #27313B;
     display: flex;
@@ -43,6 +45,17 @@
 }
 
 @media screen and (max-width: 600px){
+    .navbar {
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        width: 100%;
+        background-color: #27313B;
+    }
+
+    .sticky {
+        padding-top: 8vh;
+    }
     
     @supports (-webkit-touch-callout: none) {
         // .menu-button{

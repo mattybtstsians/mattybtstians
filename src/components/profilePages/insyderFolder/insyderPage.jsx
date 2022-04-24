@@ -56,6 +56,7 @@ function Insyderpage(props) {
   }, [])
 
   return (
+    <div className='sticky'>
     <div className="insyderPage">
  
       {/* <h2 className = "insyder--title">Insyder Page</h2> */}
@@ -105,6 +106,7 @@ function Insyderpage(props) {
     
         <Footer />
       </div>
+    </div>
     </div>
   );
 }

@@ -15,7 +15,7 @@ function Highschool() {
     useDocumentTitle('SYDE \'26 | High School');
 
     return (
-        <div>
+        <div className='sticky'>
             <ProfileTitle section="admissions" title="High School" />
             <Section header="Senior Year Format" description="Grade 12 for most of the students was completed through a hybrid quadmester format. Ontario kids had a field day when they learned that BC had in-person exams." />
             <Chart type="Pie" data="HighschoolFormat" position="left" />

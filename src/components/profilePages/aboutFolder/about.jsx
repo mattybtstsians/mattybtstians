@@ -27,7 +27,7 @@ function About() {
     })
 
     return (
-        <div>
+        <div className='sticky'>
             <div className='about'>
                 <img src={ClassPic} alt="SYDE 26 on our first day of classes!" className='classPic' />
                 <div className='descriptions'>

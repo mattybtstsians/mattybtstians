@@ -13,7 +13,7 @@ function Academics() {
     useDocumentTitle('SYDE \'26 | Academics');
 
     return (
-        <div>
+        <div className='sticky'>
             <ProfileTitle section="academics" title="Academics" />
             <Section header="1A Class Average" description="The cohort finished with a high 80 average, with the help of online schooling. Note: just under half the cohort responded about their average..." />
             <Chart type="Histogram" data="Average1A" position="left" />

@@ -18,7 +18,7 @@ function PhotoGallery() {
     useDocumentTitle('SYDE \'26 | Photo Gallery');
 
     return (
-        <div>
+        <div className='sticky'>
             <ProfileTitle title="1A Photo Gallery" section="gallery" />
             <img src={circleOne} className="circleOne" alt="Circles" />
             <div className="buttons">

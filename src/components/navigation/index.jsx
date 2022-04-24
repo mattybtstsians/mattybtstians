@@ -72,6 +72,7 @@ const GradientBackground = () => {
     }
 
     return (
+        <div className='sticky'>
         <div className='UltimateWrapper'>
             <div className='InstructionWrapper'>
                 <img src={Vector} alt="Vector" />
@@ -140,6 +141,7 @@ const GradientBackground = () => {
                 </div>
             </div>
         </div>
+    </div>
     )
 }
 

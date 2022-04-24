@@ -11,7 +11,7 @@ function Demographics() {
     useDocumentTitle('SYDE \'26 | Demographics');
 
     return (
-        <div>
+        <div className='sticky'>
             <ProfileTitle section="demographics" title="Demographics" />
             <Section header="Gender and Sexuality" description="A close tie between males and females in the ‘26 cohort. The D in SYDE stands for Diversity!" />
             <Chart type="Pie" data="Identity" position="left" />
