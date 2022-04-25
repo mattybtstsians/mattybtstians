@@ -162,7 +162,7 @@ export default function SideBar(props) {
                       size: size
                   };
                 },
-                text: 'number of respondents:' + data.n,
+                text: 'number of respondents: ' + data.n,
                 padding: {
                   bottom: 20
                 }
