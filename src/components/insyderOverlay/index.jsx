@@ -3,11 +3,22 @@ import { Link, useNavigate } from "react-router-dom";
 import '../insyderOverlay/insyderOverlay.scss';
 import closeIcon from '../../images/close-icon.svg';
 import lockIcon from '../../images/lock-icon.svg';
-import { connectStorageEmulator } from 'firebase/storage';
+import { db } from '../../firebase-config';
+import { doc, getDoc } from 'firebase/firestore';
+// import { connectStorageEmulator } from 'firebase/storage';
 
 export default function InsyderOverlay(props) {
     const [input, changeInput] = useState("");
     const navigate = useNavigate();
+
+    const [password, setPassword] = useState('');
+    getDoc(doc(db, "1A Data", "Password")).then(docSnap => {
+        if (docSnap.exists()) {
+            setPassword(docSnap.data().category);
+        } else {
+            console.log('No such document!');
+        }
+    })
 
     function toggleOverlay() {
         props.setShowOverlay(prev => !prev)
@@ -26,7 +37,7 @@ export default function InsyderOverlay(props) {
     function inputChange(userInput) {
         changeInput(userInput.target.value)
 
-        if (userInput.target.value === "matty84lyfe") {
+        if (userInput.target.value === password) {
             toggleInsyderOverlay()
             changeInput("")
   
